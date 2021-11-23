@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-// create map which will store values
+// create 2d array which will store values
 char boardVals[3][3] = {{'1','2','3'},{'4','5','6'},{'7','8','9'}};
 
 // isGameOver bool (determines if the game continues or not)
