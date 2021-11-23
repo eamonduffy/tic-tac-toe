@@ -23,7 +23,7 @@ void drawBoard() {
 
 void getPlayerDecision() {
     // determine who goes first (50/50 radndom decision) TBD
-    // for now i'll just have player go first each time
+    // for now i'll just have player X go first each time
 
     std::cout << "Please enter choice (1-9)\n";
     int playerChoice;
@@ -106,7 +106,6 @@ int main() {
     }
 
     std::cout << "Player : " << winner << " has won \n";
-    // check if win/lose/draw
 
     return 0;
 }
